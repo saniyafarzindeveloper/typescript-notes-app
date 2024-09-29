@@ -7,6 +7,7 @@ type NoteProps = {
   onDelete: (id: string) => void
 }
 
+//checks
 export function Note({ onDelete }: NoteProps) {
   const note = useNote()
   const navigate = useNavigate()
